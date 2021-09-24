@@ -47,20 +47,6 @@ const Home = () => {
           Nakamoto el 2 de enero de 2009, un personaje cuya identidad, al día de
           hoy, sigue siendo anónima.
         </Text>
-        <TouchableOpacity
-          style={{ marginTop: SIZES.base }}
-          onPress={() => console.log(" redirigir a bircoins")}
-        >
-          <Text
-            style={{
-              textDecorationLine: "underline",
-              color: COLORS.green,
-              ...FONTS.h3,
-            }}
-          >
-            Quiero saber más
-          </Text>
-        </TouchableOpacity>
       </View>
     );
   }
@@ -69,7 +55,6 @@ const Home = () => {
     <ScrollView>
       <View style={{ flex: 1, paddingBottom: 130 }}>
         <Header />
-        <PriceAlert />
         {renderNotice()}
       </View>
     </ScrollView>

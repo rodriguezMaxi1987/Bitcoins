@@ -55,6 +55,7 @@ const Home = () => {
     <ScrollView>
       <View style={{ flex: 1, paddingBottom: 130 }}>
         <Header />
+        <PriceAlert />
         {renderNotice()}
       </View>
     </ScrollView>
